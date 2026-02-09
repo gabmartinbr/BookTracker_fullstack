@@ -7,7 +7,7 @@ Aplicación para gestionar tu biblioteca personal y seguir tu progreso de lectur
 - **Lenguaje:** TypeScript
 - **Estilos:** Tailwind CSS
 - **Base de Datos & Auth:** Supabase
-- **API:** Google Books API
+- **API:** Open Library API
 
 ## 🛠️ Instalación
 1. Clonar el repo.
