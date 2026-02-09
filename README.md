@@ -5,7 +5,7 @@ Aplicación para gestionar tu biblioteca personal y seguir tu progreso de lectur
 ## 🚀 Tecnologías
 - **Framework:** Next.js 15
 - **Lenguaje:** TypeScript
-- **Estilos:** Tailwind CSS
+- **Estilos:** Tailwind CSS y Shadcn
 - **Base de Datos & Auth:** Supabase
 - **API:** Open Library API
 
