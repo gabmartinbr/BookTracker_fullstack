@@ -174,11 +174,11 @@ export default function HomePage() {
           ) : wishlist.length > 0 ? (
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
               {wishlist.map((libro) => (
-                <div key={libro.id} className="flex flex-col opacity-70 hover:opacity-100 transition-all cursor-pointer">
+                <div key={libro.key} className="flex flex-col opacity-70 hover:opacity-100 transition-all cursor-pointer">
                   <div className="aspect-[2/3] rounded-xl overflow-hidden border border-slate-800 shadow-lg mb-3">
-                    <img src={libro.portada_url} alt={libro.titulo} className="w-full h-full object-cover" />
+                    <img src={libro.portada_url} alt={libro.title} className="w-full h-full object-cover" />
                   </div>
-                  <h3 className="text-slate-300 font-medium text-xs truncate">{libro.titulo}</h3>
+                  <h3 className="text-slate-300 font-medium text-xs truncate">{libro.title}</h3>
                 </div>
               ))}
             </div>
